@@ -1,0 +1,24 @@
+{
+  "name": "@tanhauhau/gs",
+  "version": "1.0.0",
+  "description": "gs = git swtich branch with autocomplete",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/gs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanhauhau/gs/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/gs#readme",
+  "author": "Li Hau Tan <lhtan93@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "gs": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1",
+    "inquirer-autocomplete-prompt": "^1.0.1"
+  }
+}
